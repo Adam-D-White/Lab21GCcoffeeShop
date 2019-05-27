@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "NewUser";
+}
+
+<h2>NewUser</h2>
+
+<div>
+    <p>Welcome @ViewBag.Result.FirstName, please verify that all info is correct.</p>
+
+    <ul>
+        <li>@ViewBag.Result.FirstName</li>
+        <li>@ViewBag.Result.LastName
+        <li>@ViewBag.Result.Username</li>
+        <li>@ViewBag.Result.Email</li>
+        <li>@ViewBag.Result.Password</li>
+    </ul>
+
+    <p>Everything look good?</p>
+    @*<input type="radio" name="Equation"  />Yes<br>
+        <input type="radio" name="Equation"  />No<br>*@
+
+    <input type="submit" value="Yes" />@*<a href="/Home/User"></a> />*@
+    <input type="submit" value="No" />@*<a href="/Home/User"></a> />*@
+</div>
+
+
+
+
+
+
+
+
